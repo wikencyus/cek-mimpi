@@ -151,6 +151,12 @@ body {
     font-weight: 500;
 }
 
+@media screen and (max-width: 500px) {
+    #box {
+        width: 90%;
+    }
+}
+
 @keyframes animate {
     0%,
     100% {
